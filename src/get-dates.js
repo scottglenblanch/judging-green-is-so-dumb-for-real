@@ -11,7 +11,7 @@ let currentDate = earliestDay;
 
 while(currentDate < now) {
     const dayOfWeek = currentDate.getDay()
-    const isWeekday = dayOfWeek > 2 && dayOfWeek < 4
+    const isWeekday = dayOfWeek > 0 && dayOfWeek < 5
 
     let commitCount = isWeekday ? getRandomCommitCount() : 0
     

@@ -2,8 +2,8 @@
 IFS=$'\n'
 
 cd ..
-rm -rf .git
-git init
+# rm -rf .git
+# git init
 
 rm -rf files/*
 
