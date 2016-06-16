@@ -5,7 +5,7 @@ const latestDate = Date.now(2021, 11, 31)
 
 const maxCommitsPerDay = 10
 
-const getRandomCommitCount = () => Math.floor(Math.random() * maxCommitsPerDay)
+const getRandomCommitCount = () => Math.floor(Math.random() * maxCommitsPerDay) + 1
 
 let currentDate = earliestDate;
 
