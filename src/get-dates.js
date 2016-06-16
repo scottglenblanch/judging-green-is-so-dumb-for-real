@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
-const earliestDay = new Date(2022, 0, 1)
-const now = Date.now()
+const earliestDate = new Date(2016, 5, 16)
+const latestDate = Date.now(2021, 11, 31)
 
-const maxCommitsPerDay = 30
+const maxCommitsPerDay = 10
 
 const getRandomCommitCount = () => Math.floor(Math.random() * maxCommitsPerDay)
 
-let currentDate = earliestDay;
+let currentDate = earliestDate;
 
-while(currentDate < now) {
+while(currentDate < latestDate) {
     const dayOfWeek = currentDate.getDay()
     const isWeekday = dayOfWeek > 0 && dayOfWeek < 5
 
