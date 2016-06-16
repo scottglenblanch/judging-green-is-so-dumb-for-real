@@ -15,8 +15,8 @@ do
     git add ..
     git commit -m "commit for ${DATE}" --quiet
     git commit --amend --date="${DATE}" --no-edit --quiet
-  
+    git push --force 
 done
-git push --force 
+
 # git remote add origin git@github.com:scottglenblanch/judging-green-is-so-dumb-for-real.git
 # git push --force --set-upstream origin main
