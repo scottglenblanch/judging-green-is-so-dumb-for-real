@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const earliestDay = new Date(2016, 0, 1)
+const earliestDay = new Date(2022, 0, 1)
 const now = Date.now()
 
 const maxCommitsPerDay = 30
